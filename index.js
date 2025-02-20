@@ -39,7 +39,7 @@ const [firstName, lastName] = personName.split(' ');
  console.log(testText.toUpperCase());
 
  //trim
- const testText2 = ' This is a test text '
+ const testText2 = ' This is a test text ';
  console.log(testText2.trim());
 
  //destruction of string
@@ -58,14 +58,12 @@ console.log(padTestText.padStart(20, '*').padEnd(30, '*'));
 
 //creditcard handler
 const creditCardHandler = function (credit){
-  const newString = credit.trim()
-  .replace(' ', '')
-  .replace('-', '');
+  const newString = credit.replace(/\D/g, '');
   const lastDigits = newString.slice(-4);
   return lastDigits.padStart(newString.length, '*'); 
 };
 
-const creditCardNumber = '0215-0265-0269-0245'
+const creditCardNumber = '0215-0265-0269-0245';
 const result = creditCardHandler(creditCardNumber);
 console.log(result);
 
