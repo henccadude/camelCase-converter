@@ -20,7 +20,6 @@ The project showcases **JavaScript string methods, event handling, and DOM manip
 
 ✅ Converts **snake_case** text to **camelCase**  
 ✅ Supports multi-line input  
-✅ Outputs results in the **console**  
-✅ Includes **error handling** for incorrect input formats  
+✅ Outputs results in the **console**
 ✅ Demonstrates various **string manipulation techniques**  
 ✅ Implements a **credit card masking function**
