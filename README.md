@@ -1,18 +1,26 @@
-# 🐍 Snake_case to CamelCase Converter 🚀
+# 🐍 Snake_case to CamelCase Converter & String Manipulation 🚀
 
 ## 📌 Overview
 
-This is a simple JavaScript project that converts user-inputted **snake_case** text into **camelCase** format. The program takes multiple lines of input, processes each one, and outputs the transformed text with a ✅ indicator based on its line position.
+This JavaScript project demonstrates **string manipulation techniques** through various functions, including:
 
-The project demonstrates JavaScript string manipulation, DOM interaction, and event-driven programming.
+1. **Snake_case → CamelCase converter**: Processes user input and transforms it.
+2. **General string operations** such as:
+   - Splitting, slicing, trimming
+   - Changing case (upper/lower)
+   - Repeating and padding
+   - Replacing text
+3. **Credit card masking function**: Hides all but the last four digits of a credit card number.
 
-## ✨ Features
+The project showcases **JavaScript string methods, event handling, and DOM manipulation**.
+
+---
+
+## **✨ Features**
 
 ✅ Converts **snake_case** text to **camelCase**  
-✅ Displays results in the **console**
-
-## 🛠️ How It Works
-
-1. The user enters **snake_case** formatted text into a `<textarea>`.
-2. Clicking the **Convert** button triggers the conversion function.
-3. Each valid line is transformed into `camelCase` and displayed in the **console**.
+✅ Supports multi-line input  
+✅ Outputs results in the **console**  
+✅ Includes **error handling** for incorrect input formats  
+✅ Demonstrates various **string manipulation techniques**  
+✅ Implements a **credit card masking function**
