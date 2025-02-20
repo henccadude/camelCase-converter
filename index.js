@@ -1,4 +1,4 @@
-'strict'
+'use strict'
 
 const parserTxt = function (call){
   const arr2 = call.split('\n');
